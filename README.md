@@ -59,9 +59,10 @@ const { combinePdfs } = require("combine-multiple-pdfs");
 /* or */
 const combinePdfs = require("combine-multiple-pdfs");
 
-let data = ["file1-path", "file-path"];
+let data = ["./dummy.pdf", "./dummy1.pdf"];
 /* Minimum two files required */
-let options = { outName: "mergedPdf", outPath: "output file path" };
+let options = { outName: "mergedPdf", outPath: "./public" };
+
 let newFileBuffer = combinePdfs(data, options);
 ```
 
