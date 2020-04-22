@@ -1,7 +1,8 @@
 {
-  "name": "merge-pdfs",
-  "version": "1.0.0",
+  "name": "combine-multiple-pdfs",
+  "version": "1.0.1",
   "description": "Merge multiple pdfs into a single pdf",
+  "repository": "https://github.com/saijeevanballa/Merge-PDFs",
   "main": "index.ts",
   "scripts": {
     "start": "ts-node ./index.ts",
@@ -9,7 +10,12 @@
   },
   "author": "Sai Jeevan Balla",
   "license": "ISC",
-  "keywords": ["merge-pdfs"],
+  "keywords": [
+    "merge-pdfs",
+    "PDFs",
+    "Combine-Multiple-PDFs",
+    "merge-multiple-pdfs"
+  ],
   "dependencies": {
     "memory-streams": "0.1.3",
     "hummus": "1.0.108"
