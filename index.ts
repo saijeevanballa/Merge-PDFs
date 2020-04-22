@@ -3,7 +3,7 @@ import memoryStreams from "memory-streams";
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 
-export default function mergePdfs(
+export default function combinePdfs(
   filePaths: string[],
   options?: { outName: string; outPath: string }
 ) {
