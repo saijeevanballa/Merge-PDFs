@@ -4,7 +4,7 @@
 [![master branch](https://img.shields.io/travis/aichbauer/node-convert-array-to-csv/master.svg?style=flat-square)](https://github.com/saijeevanballa/Merge-PDFs)
 [![Codecov branch](https://img.shields.io/codecov/c/github/aichbauer/node-convert-array-to-csv/master.svg?style=flat-square)](https://github.com/saijeevanballa/Merge-PDFs/issues)
 
-> Combine or Merge multiple Pdfs into single Pdfs
+> Combine or Merge multiple Pdfs into single a Pdf
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@
 - [Installation](#installation)
 - [Functions](#functions)
 - [Usage](#usage)
-- [License](#license)
 
 ## Why?
 
@@ -61,11 +60,8 @@ const combinePdfs = require("combine-multiple-pdfs");
 
 let data = ["./dummy.pdf", "./dummy1.pdf"];
 /* Minimum two files required */
+
 let options = { outName: "mergedPdf", outPath: "./public" };
 
 let newFileBuffer = combinePdfs(data, options);
 ```
-
-## License
-
-MIT © Sai Jeevan Balla

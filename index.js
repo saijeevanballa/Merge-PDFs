@@ -50,4 +50,5 @@ async function combinePdfs(filePaths, options) {
   }
 }
 
-module.exports = combinePdfs;
+module.exports.default = combinePdfs;
+
