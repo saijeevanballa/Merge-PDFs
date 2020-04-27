@@ -1,6 +1,6 @@
 {
   "name": "combine-multiple-pdfs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Merge multiple pdfs into a single pdf",
   "repository": "https://github.com/saijeevanballa/Merge-PDFs",
   "main": "index.ts",
@@ -11,10 +11,15 @@
   "author": "Sai Jeevan Balla",
   "license": "ISC",
   "keywords": [
-    "merge-pdfs",
-    "PDFs",
+    "pdf",
+    "merge",
+    "easy",
+    "pdf-merge",
+    "merge-pdf",
+    "easy-merge-pdf",
     "Combine-Multiple-PDFs",
-    "merge-multiple-pdfs"
+    "merge-multiple-pdfs",
+    "easy-pdf-merge"
   ],
   "dependencies": {
     "memory-streams": "0.1.3",
